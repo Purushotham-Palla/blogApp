@@ -1,5 +1,7 @@
-#Note: In document creating user table not mentiond
 #Here user table
+
+#Note: In document creating user table not mentiond
+
 # Blog Application with User Roles and Authentication 
 
 
