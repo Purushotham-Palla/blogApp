@@ -1,5 +1,7 @@
+#Note: In document creating user table not mentiond
+#Here user table
+# Blog Application with User Roles and Authentication 
 
-# Blog Application with User Roles and Authentication
 
 This project is a web application for managing blog posts with user roles and authentication. It includes functionalities for user registration, login, admin dashboard, and viewer interface.
 
