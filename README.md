@@ -1,6 +1,3 @@
-Here's a README file template for your blog application project:
-
----
 
 # Blog Application with User Roles and Authentication
 
@@ -34,6 +31,20 @@ CREATE TABLE media (
 );
 ```
 
+### User 
+
+```sql
+CREATE TABLE user (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    role ENUM('Admin', 'Viewer') NOT NULL
+);
+```
+
+
+
 ## Project Phases
 
 ### Phase 1: User Registration and Login (Frontend & Backend)
@@ -63,7 +74,7 @@ CREATE TABLE media (
 #### Viewer Interface
 
 - Implement UI for viewers to:
-  - Search blog posts by title or date.
+  - Search blog posts by title or date(working on that).
   - View individual blog posts in detail, opening them in a new tab.
 
 ## Video Link
@@ -75,7 +86,8 @@ CREATE TABLE media (
 1. Clone the repository:
 
    ```bash
-   $ git clone https://github.com/yourusername/blogapp.git
+   $ gitclone https://github.com/Purushotham-Palla/blogApp.git
+  
    ```
 
 2. Set up the MySQL database:
@@ -97,10 +109,9 @@ CREATE TABLE media (
 
 For any questions or feedback, feel free to reach out:
 
-- **Author**: Your Name
-- **GitHub**: [Your GitHub Profile](https://github.com/yourusername)
-- **Email**: yourname@example.com
 
----
+- **Author**: Purushotham-Palla
+- **GitHub**: [Purushotham-Palla](https://github.com/Purushotham-Palla/)
+- **Email**: ppurushotham2001@gmail.com
 
-Adjust the placeholders (`yourusername`, `Your Name`, `yourname@example.com`) with your actual details before uploading it to GitHub. This README should help users understand your project's structure, features, and how to set it up and use it effectively.
+
